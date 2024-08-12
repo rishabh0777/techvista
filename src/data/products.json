@@ -1,0 +1,423 @@
+ {
+  "categories": [
+    {
+      "id": 1,
+      "name": "TV",
+      "items": [
+        {
+          "id": 101,
+          "name": "Ultra HD Smart TV",
+          "brand": "Samsung",
+          "price": 499.99,
+          "features": ["4K Resolution", "Smart TV", "HDR10"],
+          "image": "https://m.media-amazon.com/images/I/71viWVwI0JL._SX569_.jpg"
+        },
+        {
+          "id": 102,
+          "name": "4K OLED TV",
+          "brand": "LG",
+          "price": 899.99,
+          "features": ["OLED", "4K Resolution", "Smart TV"],
+          "image": "https://m.media-amazon.com/images/I/81Zt42ioCgL._SX679_.jpg"
+        },
+        {
+          "id": 103,
+          "name": "Ultra HD Smart TV",
+          "brand": "Sony",
+          "price": 349.99,
+          "features": ["4K Resolution", "Smart TV", "Dolby Audio"],
+          "image": "https://m.media-amazon.com/images/I/51eiFYQhwBL._SY300_SX300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 104,
+          "name": "4K Ultra HD Smart Google TV",
+          "brand": "Redmi",
+          "price": 379.99,
+          "features": ["4K Resolution", "Integrated Google Softwares", "Voice Control"],
+          "image": "https://m.media-amazon.com/images/I/61T5drqfafL._SX569_.jpg"
+        },
+        {
+          "id": 105,
+          "name": "Curved 4K TV",
+          "brand": "Samsung",
+          "price": 599.99,
+          "features": ["Curved Screen", "4K Resolution", "HDR"],
+          "image": "https://m.media-amazon.com/images/I/51rds8e-CoL._SY300_SX300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 106,
+          "name": "4K TV",
+          "brand": "Samsung",
+          "price": 799.99,
+          "features": ["Ultra HD", "4K Resolution", "Smart TV"],
+          "image": "https://m.media-amazon.com/images/I/51dRoa85BNL._SY300_SX300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 107,
+          "name": "4K UHD TV",
+          "brand": "Sony",
+          "price": 649.99,
+          "features": ["4K Resolution", "UHD", "Smart TV"],
+          "image": "https://m.media-amazon.com/images/I/41FmPEU3gDL._SY300_SX300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 108,
+          "name": "HD TV",
+          "brand": "TCL",
+          "price": 299.99,
+          "features": ["4K Resolution", "Built in Chromecast", "Google TV"],
+          "image": "https://m.media-amazon.com/images/I/51LWfhKEoML._SY300_SX300_QL70_FMwebp_.jpg"
+        }
+      ]
+    },
+{
+      "id": 2,
+      "name": "Smartphone",
+      "items": [
+        {
+          "id": 201,
+          "name": "Galaxy S21 FE 5G",
+          "brand": "Samsung",
+          "price": 799.99,
+          "features": ["6.2-inch Display", "128GB Storage", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41O1C449O1L._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 202,
+          "name": "Apple iPhone 13",
+          "brand": "Apple",
+          "price": 899.99,
+          "features": ["6.1-inch Display", "256GB Storage", "6GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/31tyUh1todL._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 203,
+          "name": "Pixel 6",
+          "brand": "Google",
+          "price": 699.99,
+          "features": ["6.4-inch Display", "128GB Storage", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41ABZiOlcJL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 204,
+          "name": "OnePlus 9 5G",
+          "brand": "OnePlus",
+          "price": 749.99,
+          "features": ["6.7-inch Display", "256GB Storage", "12GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41iiRrNUMTL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 205,
+          "name": "Apple Iphone 15 5G",
+          "brand": "Apple",
+          "price": 899.99,
+          "features": ["6.1-inch Display", "256GB Storage", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/31KxpX7Xk7L._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 206,
+          "name": "Moto G Power 5G",
+          "brand": "Motorola",
+          "price": 249.99,
+          "features": ["6.6-inch Display", "128GB Storage", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41BJezE+UlL._SY300_SX300_.jpg"
+        },
+        {
+          "id": 207,
+          "name": "Nokia G42 5G",
+          "brand": "Nokia",
+          "price": 399.99,
+          "features": ["6.67-inch Display", "128GB Storage", "4GB + 2GB Expandable RAM"],
+          "image": "https://m.media-amazon.com/images/I/41Mje26R9-L._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 208,
+          "name": "Honor 200 5G ",
+          "brand": "Honor",
+          "price": 499.99,
+          "features": ["6.57-inch Display", "256GB Storage", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41q42maJzVL._SX300_SY300_QL70_FMwebp_.jpg"
+        }
+      ]
+    },{
+      "id": 3,
+      "name": "Earphone",
+      "items": [
+        {
+          "id": 301,
+          "name": "AirPods Pro",
+          "brand": "Apple",
+          "price": 249.99,
+          "features": ["Active Noise Cancellation", "Wireless Charging", "Transparency Mode"],
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985"
+        },
+        {
+          "id": 302,
+          "name": "Galaxy Buds Pro",
+          "brand": "Samsung",
+          "price": 199.99,
+          "features": ["Active Noise Cancellation", "Wireless Charging", "Water Resistant"],
+          "image": "https://www.samsung.com/global/galaxy/galaxy-buds-pro/images/galaxy-buds-pro-overview-violet-open.png"
+        },
+        {
+          "id": 303,
+          "name": "Sony WF-1000XM4",
+          "brand": "Sony",
+          "price": 279.99,
+          "features": ["Noise Cancelling", "Wireless Charging", "Alexa Built-In"],
+          "image": "https://m.media-amazon.com/images/I/21nysGNCVpL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 304,
+          "name": "Bose QuietComfort Earbuds",
+          "brand": "Bose",
+          "price": 299.99,
+          "features": ["Noise Cancelling", "Wireless Charging", "Weather Resistant"],
+          "image": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_earbuds_ii/product_silo_image/COM-3679_QCEBII-LE_Buds_Front_EclipseGrey_hero.png/jcr:content/renditions/cq5dam.web.600.600.png"
+        },
+        {
+          "id": 305,
+          "name": "Jabra Elite 85t",
+          "brand": "Jabra",
+          "price": 229.99,
+          "features": ["Active Noise Cancellation", "Wireless Charging", "Water Resistant"],
+          "image": "https://assets2.jabra.com/0/6/a/1/06a1bb17519f4b3336b910fc9a6137b507fa7113_elite85t_titanium_02.png?w=400&h=400&auto=format"
+        },
+        {
+          "id": 306,
+          "name": "Anker Soundcore Liberty Air 2 Pro",
+          "brand": "Anker",
+          "price": 129.99,
+          "features": ["Active Noise Cancellation", "Wireless Charging", "Transparency Mode"],
+          "image": "https://m.media-amazon.com/images/I/31JFdqDmMaL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 307,
+          "name": "Beats Studio Buds",
+          "brand": "Beats",
+          "price": 149.99,
+          "features": ["Active Noise Cancellation", "Transparency Mode", "IPX4 Rated"],
+          "image": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/studio-buds-plus/pdp/product-carousel/black/alt/studiobudsplus-blackgold-01.jpg.large.2x.jpg"
+        },
+        {
+          "id": 308,
+          "name": "Sennheiser Momentum True Wireless 2",
+          "brand": "Sennheiser",
+          "price": 299.99,
+          "features": ["Active Noise Cancellation", "Wireless Charging", "Transparent Hearing"],
+          "image": "https://www.sennheiser-hearing.com/_next/image/?url=https%3A%2F%2Fmedia.graphassets.com%2FFCk66IiRiJWhuNONpqg7&w=1920&q=75"
+        }
+      ]
+    },{
+      "id": 4,
+      "name": "Monitor",
+      "items": [
+        {
+          "id": 401,
+          "name": "Dell UltraSharp",
+          "brand": "Dell",
+          "price": 399.99,
+          "features": ["27-inch 4K UHD", "IPS", "Adjustable Stand"],
+          "image": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/peripherals/output-devices/composite-franchise-imagery/monitor/monitor-ultrasharp-family-franchise-page-1.jpg?fmt=jpg&wid=552&hei=460"
+        },
+        {
+          "id": 402,
+          "name": "LG UltraFine",
+          "brand": "LG",
+          "price": 349.99,
+          "features": ["27-inch 4K UHD", "IPS", "USB-C"],
+          "image": "https://media.us.lg.com/transform/1266199f-d596-46a4-bcfc-f5035cfd7f0f/Monitors_ultrafine_herobanner_900x600"
+        },
+        {
+          "id": 403,
+          "name": "ASUS ROG Swift",
+          "brand": "ASUS",
+          "price": 799.99,
+          "features": ["27-inch WQHD", "165Hz", "G-Sync"],
+          "image": "https://dlcdnwebimgs.asus.com/gain/A00C8F15-E127-4AB4-A5F3-B22FF0CB6BC9/w717/h525"
+        },
+        {
+          "id": 404,
+          "name": "Samsung Odyssey G7",
+          "brand": "Samsung",
+          "price": 699.99,
+          "features": ["32-inch QHD", "240Hz", "Curved"],
+          "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ls28bg700ewxxl/gallery/in-odyssey-g7-g70b-ls28bg700ewxxl-534804809?$650_519_PNG$"
+        },
+        {
+          "id": 405,
+          "name": "Acer Predator",
+          "brand": "Acer",
+          "price": 499.99,
+          "features": ["27-inch WQHD", "144Hz", "G-Sync"],
+          "image": "https://m.media-amazon.com/images/I/41ZAmwgLiBL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 406,
+          "name": "HP Omen",
+          "brand": "HP",
+          "price": 429.99,
+          "features": ["27-inch QHD", "165Hz", "IPS"],
+          "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/7/8/780K9AA-1_T1697678810.png"
+        },
+        {
+          "id": 407,
+          "name": "BenQ PD2700U",
+          "brand": "BenQ",
+          "price": 449.99,
+          "features": ["27-inch 4K UHD", "IPS", "HDR"],
+          "image": "https://image.benq.com/is/image/benqco/pd2500q-front-high?$ResponsivePreset$&fmt=png-alpha"
+        },
+        {
+          "id": 408,
+          "name": "ViewSonic VX3276-2K-MHD",
+          "brand": "ViewSonic",
+          "price": 329.99,
+          "features": ["32-inch QHD", "IPS", "Frameless Design"],
+          "image": "https://www.viewsonic.com/vsAssetFile/global/img/resize/slides/_lcd_display_%28new%29/VX3276-2K-MHD/scaled/VX3276-2K-mhd_F01_pc_l.webp"
+        }
+      ]
+    }, {
+      "id": 5,
+      "name": "Laptop",
+      "items": [
+        {
+          "id": 501,
+          "name": "MacBook Air M2",
+          "brand": "Apple",
+          "price": 1199.99,
+          "features": ["13.6-inch Display", "256GB SSD", "8GB RAM"],
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-midnight-select-202402?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1708367688034"
+        },
+        {
+          "id": 502,
+          "name": "Dell XPS 13",
+          "brand": "Dell",
+          "price": 1399.99,
+          "features": ["13.4-inch Display", "512GB SSD", "16GB RAM"],
+          "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=575&qlt=100,1&resMode=sharp2&size=575,402&chrss=full"
+        },
+        {
+          "id": 503,
+          "name": "HP Spectre x360",
+          "brand": "HP",
+          "price": 1299.99,
+          "features": ["13.5-inch Display", "512GB SSD", "16GB RAM"],
+          "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c08828291-ultraevo_1.png"
+        },
+        {
+          "id": 504,
+          "name": "Lenovo ThinkPad X1 Carbon",
+          "brand": "Lenovo",
+          "price": 1499.99,
+          "features": ["14-inch Display", "1TB SSD", "16GB RAM"],
+          "image": "https://p1-ofp.static.pub/fes/cms/2023/04/28/iu6t7jqpekoy7o76vbn0c9a9b7rbsb543440.png"
+        },
+        {
+          "id": 505,
+          "name": "Asus ROG Zephyrus G14",
+          "brand": "Asus",
+          "price": 1399.99,
+          "features": ["14-inch Display", "512GB SSD", "16GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41ULwJPvbgS._SY300_SX300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 506,
+          "name": "Acer Swift 3",
+          "brand": "Acer",
+          "price": 799.99,
+          "features": ["14-inch Display", "256GB SSD", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/51mC+ckzB2L._SY300_SX300_.jpg"
+        },
+        {
+          "id": 507,
+          "name": "Microsoft Surface Laptop 4",
+          "brand": "Microsoft",
+          "price": 1099.99,
+          "features": ["13.5-inch Display", "512GB SSD", "16GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41sT-ej9Q-L._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 508,
+          "name": "Razer Blade 15",
+          "brand": "Razer",
+          "price": 1699.99,
+          "features": ["15.6-inch Display", "1TB SSD", "16GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41Ad1qHmH+L._SY300_SX300_.jpg"
+        }
+      ]
+    },
+{
+      "id": 6,
+      "name": "Tablet",
+      "items": [
+        {
+          "id": 601,
+          "name": "iPad Pro",
+          "brand": "Apple",
+          "price": 999.99,
+          "features": ["11-inch Display", "128GB Storage", "M1 Chip"],
+          "image": "https://m.media-amazon.com/images/I/416l9Sm-30L._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 602,
+          "name": "Galaxy Tab S7",
+          "brand": "Samsung",
+          "price": 649.99,
+          "features": ["11-inch Display", "128GB Storage", "8GB RAM"],
+          "image": "https://images.samsung.com/is/image/samsung/assets/in/tablets/galaxy-tab-s7/buy/TabS7_main_visual_banner_1440x450_2.jpg?imbypass=true"
+        },
+        {
+          "id": 603,
+          "name": "Surface Pro 7",
+          "brand": "Microsoft",
+          "price": 749.99,
+          "features": ["12.3-inch Display", "128GB SSD", "8GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41qiK3PPaNS._SY300_SX300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 604,
+          "name": "Lenovo Tab P11 Pro",
+          "brand": "Lenovo",
+          "price": 499.99,
+          "features": ["11.5-inch Display", "128GB Storage", "6GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/3189s2h352L._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "id": 605,
+          "name": "Amazon Fire HD 10",
+          "brand": "Amazon",
+          "price": 149.99,
+          "features": ["10.1-inch Display", "64GB Storage", "3GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/41EBRNzlHaL._AC_.jpg"
+        },
+        {
+          "id": 606,
+          "name": "Huawei MatePad Pro",
+          "brand": "Huawei",
+          "price": 599.99,
+          "features": ["10.8-inch Display", "128GB Storage", "6GB RAM"],
+          "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-132.jpg"
+        },
+        {
+          "id": 607,
+          "name": "Xiaomi Pad 5",
+          "brand": "Xiaomi",
+          "price": 399.99,
+          "features": ["11-inch Display", "128GB Storage", "6GB RAM"],
+          "image": "https://m.media-amazon.com/images/I/71fFt3t8QxL._SX679_.jpg"
+        },
+        {
+          "id": 608,
+          "name": "Asus ZenPad 3S",
+          "brand": "Asus",
+          "price": 299.99,
+          "features": ["9.7-inch Display", "64GB Storage", "4GB RAM"],
+          "image": "https://www.gsmarena.com/asus_zenpad_3s_10_z500m-pictures-8218.php"
+        }
+      ]
+    }
+
+  ]
+}
+
