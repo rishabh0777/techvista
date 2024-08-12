@@ -87,9 +87,9 @@ const Header = () => {
     <nav
     ref={navbarRef}
       id="navbar"
-      className="mx-[2vw] lg:h-[12vh]  lg:w-[96vw] xsm:h-[7vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] rounded-full flex items-center  lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin ease-linear duration-200"
+      className="mx-[2vw] lg:h-[12vh] px-1 lg:w-[96vw] xsm:h-[7vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] rounded-full flex items-center  lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin ease-linear duration-200"
     >
-      <div id="nav-part1" className="lg:w-[15%] xsm:w-[17%] h-full flex items-center xsm:text-center xsm:px-1">
+      <div id="nav-part1" className="lg:w-[15%] xsm:w-[17%] h-full flex items-center xsm:text-center ">
         <h1 className="lg:text-[2em] xsm:text-[0.8em] xsm:font-semibold ">techVista</h1>
       </div>
       <div id="nav-part2" className="lg:w-[35%] h-full xsm:w-[40%]  flex items-center xsm:justify-center xsm:ml-2 lg:px-0">

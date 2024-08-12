@@ -55,18 +55,18 @@ const Hero = () => {
         >
           <div
             id="heroPoster"
-            className="lg:w-[95%] lg:h-[87vh] xsm:w-[95vw] xsm:h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.5%] xsm:mt-[20%] sm:mt-[14%] bg-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none "
+            className="lg:w-[95%] lg:h-[87vh] xsm:w-[95vw] xsm:h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[12%] md:mt-[12.5%]  bg-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none "
           >
             <div className="relative w-full h-full">
               <img
                 src={heroPosterImg}
                 alt=""
-                className="absolute lg:w-[19rem] xsm:w-[12rem] sm:w-[15rem] z-[10] left-1/2 top-1/2 transform translate-y-[-40%] translate-x-[-50%]"
+                className="absolute lg:w-[19rem] xsm:w-[12rem] sm:w-[15rem] z-[10] left-1/2 md:top-[65%] md:-translate-y-[65%] xsm:top-[50%] transform xsm:-translate-y-1/2 translate-x-[-50%]"
               />
-              <h1 className="lg:text-[12.2rem] xsm:text-[5rem] sm:text-[7rem] absolute lg:top-[-1.9%] lg:left-[21%] xsm:top-[27%] xsm:left-[10%] sm:top-[20%] sm:left-[13%] z-[9] tracking-widest font-roboto font-extrabold">
+              <h1 className="lg:text-[12.2rem] xsm:text-[4.9rem] sm:text-[6rem] absolute z-[9] tracking-widest font-roboto font-extrabold transform left-1/2 xsm:top-[25.7%] -translate-x-1/2 xsm:-translate-y-[25.7%] lg:top-[3%] lg:-translate-y-[3%]">
                 AIRPOD
               </h1>
-              <p className="lg:text-[1rem] xsm:text-[0.5em] absolute sm:top-[80%] sm:text-[0.6em] lg:top-[90%] xsm:top-[78%] font-semibold text-zinc-800 tracking-widest font-poppins left-[50%] z-[12] transform -translate-y-1/2 -translate-x-1/2">
+              <p className="lg:text-[1rem] xsm:text-[0.5em] absolute sm:top-[80%] sm:text-[0.6em] lg:top-[90%] xsm:top-[78%] font-semibold text-zinc-800 tracking-widest font-poppins left-[50%] z-[12] transform -translate-y-[90%] -translate-x-1/2 w-[80%] text-center">
                 Unleashing the Power of Modern Tech
               </p>
             </div>
