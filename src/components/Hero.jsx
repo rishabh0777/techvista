@@ -63,7 +63,7 @@ const Hero = () => {
                 alt=""
                 className="absolute lg:w-[19rem] xsm:w-[12rem] sm:w-[15rem] z-[10] left-1/2 md:top-[65%] md:-translate-y-[65%] xsm:top-[50%] transform xsm:-translate-y-1/2 translate-x-[-50%]"
               />
-              <h1 className="lg:text-[12.2rem] xsm:text-[4.9rem] sm:text-[6rem] absolute z-[9] sm:tracking-widest xsm:tracking-wide font-roboto font-extrabold transform left-1/2 xsm:top-[25.4%] -translate-x-1/2 xsm:-translate-y-[25.4%] lg:top-[3%] lg:-translate-y-[3%]">
+              <h1 className="lg:text-[12.2rem] xsm:text-[4.9rem] sm:text-[6rem] absolute z-[9] sm:tracking-widest xsm:tracking-wide font-roboto font-extrabold transform left-1/2 xsm:top-[23%] -translate-x-1/2 xsm:-translate-y-[23%] lg:top-[3%] lg:-translate-y-[3%]">
                 AIRPOD
               </h1>
               <p className="lg:text-[1rem] xsm:text-[0.5em] absolute sm:top-[80%] sm:text-[0.6em] lg:top-[90%] xsm:top-[78%] font-semibold text-zinc-800 tracking-widest font-poppins left-[50%] z-[12] transform -translate-y-[90%] -translate-x-1/2 w-[80%] text-center">
