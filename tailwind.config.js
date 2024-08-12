@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        xsm: '250px',
+        xsm: '200px',
+        msm: '400px',
         sm: "500px"
       },
       fontFamily: {
@@ -33,6 +34,7 @@ export default {
         normal: '0em',
         wide: '0.05em',
         widest: '0.1em',
+        mostWidest: '0.12em',
       },
       lineHeight: {
         none: '1',
