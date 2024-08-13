@@ -7,8 +7,7 @@ export default {
     extend: {
       screens: {
         xsm: '200px',
-        msm: '400px',
-        sm: "500px"
+        sm: "400px"
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

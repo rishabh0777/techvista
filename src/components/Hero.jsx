@@ -55,25 +55,15 @@ const Hero = () => {
         >
           <div
             id="heroPoster"
-            className="lg:w-[95%] lg:h-[87vh] xsm:w-[95vw] xsm:h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[21%] md:mt-[12.5%]  bg-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none "
+            className="w-[95%] h-[100vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%]  bg-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none"
           >
-            <div className="relative xsm:h-screen xsm:w-full sm:w-full sm:h-full flex flex-col ">
-              <div className='w-full h-[40%] flex justify-center items-start'>
-              <h1 className="lg:text-[10rem] md:text-[7rem] sm:text-[5rem] xsm:text-[3.8rem] xsm:mt-[14.3rem] msm:mt-[19.1rem] sm:mt-[9.3rem] md:mt-[18rem] bg-blue-400 h-0  tracking-mostWidest font-black lg:mt-8">
-                AIRPOD  
-              </h1>
-              </div>
-              <img
-                src={heroPosterImg}
-                alt=""
-                className="absolute md:w-[14rem] lg:w-[19rem] xsm:w-[12rem] sm:w-[12rem] z-[10] left-1/2 md:top-[65%] md:-translate-y-[65%] xsm:top-[50%] transform xsm:-translate-y-1/2 translate-x-[-50%]"
-              />
-              <div className="w-full h-[60%] flex items-end justify-center">
-              <p className="lg:text-[1rem] xsm:text-[0.5em] md:text-[0.6em] font-semibold text-zinc-800 tracking-widest font-poppins left-[50%] z-[12] mb-10">
-                Unleashing the Power of Modern Tech
-              </p>
-              </div>
-              
+            <div id="content" className="relative inline-block text-center">
+            <h1 className="absolute left-1/2 md:text-[14vw] xsm:text-[17vw] xsm:top-[-33%] sm:top-[-33%] md:top-[-40%] lg:top-[-70%] font-montserrat tracking-mostWidest z-[10] font-black transform -translate-x-1/2 ">AIRPOD</h1>
+
+              <img 
+              className="relative max-w-[50%] mx-auto my-0 block z-[20]"
+              src={heroPosterImg} alt="sorry" />
+              <p className="absolute left-1/2 top-[115%] w-full transform -translate-x-1/2">Unleasing the Power of Modern Tech</p>
             </div>
           </div>
           <div className="lg:w-[95%] lg:h-[86vh] md:h-[50%] xsm:w-[95%] xsm:min-h-[60%] relative z-[15] mx-[2.5%] lg:mt-[2%] xsm:mt-[4%] bg-white shadow-lg shadow-black rounded-3xl overflow-hidden flex flex-col gap-2 items-center justify-start box-sizing border-box px-2 py-2">
