@@ -15,6 +15,7 @@ import Checkout from "./components/Checkout";
 function App() {
   return (
     <>
+   
       <Router basename="/techvista/">
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -30,7 +31,7 @@ function App() {
           <Route path="signup" element={<Signup />} />
         </Routes>
       </Router>
-      
+         
     </>
   );
 }

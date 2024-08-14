@@ -28,18 +28,18 @@ const SearchedItem = () => {
         
 
   return (
-    <main className="w-screen bg-[#0b0b0b]">
+    <main className="w-screenbg-[#ccc] dark:bg-[#555] ">
       <div
         id="landingPage"
-        className="w-[100vw] bg-[#ccc] min-h-[80vh] relative z-10 flex flex-col items-center justify-center"
+        className="w-[100vw]  min-h-[80vh] relative z-10 flex flex-col items-center justify-center"
       >
         <div
           id="searchedItem"
-          className="w-[95%] min-h-[85vh] p-4 relative z-[15] mx-[2.5%] lg:mt-[7.5%] xsm:mt-[20%] sm:mt-[14%] bg-white shadow-lg shadow-black rounded-3xl overflow-hidden  flex flex-col items-center box-sizing justify-items-center gap-5"
+          className="w-[95%] min-h-[85vh] p-4 relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden  flex flex-col items-center box-sizing justify-items-center gap-5"
         >
           <h1 className="text-2xl pb-2 tracking-wider">Searched item</h1>
           <div className="w-full  border-b-[0.01em] border-zinc-500"></div>
-          <div className="w-full px-2 py-2 grid xsm:grid-cols-1n sm:grid-cols-2 lg:grid-cols-4 xsm:gap-2 lg:gap-4 justify-items-center">
+          <div className="w-full px-2 py-2 grid xsm:grid-cols-1 lg:grid-cols-4 xsm:gap-2 md:grod-cols-3 lg:gap-4 justify-items-center place-items-center">
            {
             searchItem?(
                     

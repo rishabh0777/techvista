@@ -1,18 +1,38 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
+import React,{ useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { loadCart, addToCart } from '../../cartSlice'
+
 
 const ProductInfo = () => {
   const itemInfo = useSelector((state)=> state.productInfo.selectedProductInfo)
+  const user = useSelector((state)=>state.auth.user)
+  const dispatch = useDispatch()
+
+   
+  useEffect(() => {
+    if (user) {
+      dispatch(loadCart(user.uid));
+    }
+  }, [user, dispatch]);
+ 
+
+  const handleAddToCart = (product) => {
+    if (user) {
+      dispatch(addToCart({ userId: user.uid, product }));
+    } else {
+      console.error('User not logged in');
+    }
+  };
 
   return (
-    <main className="w-screen bg-[#0b0b0b]">
+    <main className="w-screen bg-[#ccc] dark:bg-[#555]">
       <div
         id="landingPage"
-        className="w-[100vw] bg-[#ccc] h-[100vh] z-10 flex flex-col items-center justify-center"
+        className="w-[100vw]  h-[100vh] z-10 flex flex-col items-center justify-center"
       >
         <div
           id="data"
-          className="w-[95%] min-h-[85vh] p-4 relative z-[15] mx-[2.5%] lg:mt-[7.5%] xsm:mt-[20%] sm:mt-[14%] bg-white shadow-lg shadow-black rounded-3xl overflow-hidden flex md:flex-row xsm:flex-col items-center box-sizing justify-items-center gap-5 py-5"
+          className="w-[95%] min-h-[85vh] p-4 relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex md:flex-row xsm:flex-col items-center box-sizing justify-items-center gap-5 py-5"
         >
           <div id="left" className=' md:w-1/2 xsm:w-full md:h-full xsm:h-[45%] items-center flex justify-center'>
             <img 
@@ -25,7 +45,9 @@ const ProductInfo = () => {
             <p className='md:text-4xl xsm:text-2xl tracking-wide font-black xsm:mt-1 md:mt-8'>{itemInfo.brand}</p>
             <h2 className='md:text-2xl xsm:text-xl mt-8 tracking-tight'>{itemInfo.features}</h2>
             <h3 className='md:text-[3rem] xsm:text-[1.5rem] tracking-tighter mt-4'>${itemInfo.price}</h3>
-                <button className='bg-[#3ab611] md:py-3 md:px-2 xsm:py-2 xsm:px-1 mt-8 xsm:text-[0.8em] md:text-[0.9em] text-white md:w-[12rem] xsm:w-[6rem] rounded-3xl'>Buy Now</button>
+                <button 
+                onClick={()=>handleAddToCart(itemInfo)}
+                className='bg-[#3ab611] md:py-3 md:px-2 xsm:py-2 xsm:px-1 mt-8 xsm:text-[0.8em] md:text-[0.9em] text-white md:w-[12rem] xsm:w-[6rem] rounded-3xl'>Add to cart</button>
           </div>
       </div>
       </div>

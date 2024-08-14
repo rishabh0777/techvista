@@ -21,6 +21,44 @@ const Header = () => {
   const [query, setQuery] = useState('');
   const [filteredItems, setFilteredItems] = useState([]);
 
+
+  // Function to handle Theme
+  const handleTheme = ()=>{
+    const themeBtn = document.getElementById('themeMode')
+    const rootElement = document.documentElement;
+
+    if(rootElement.classList.contains('dark')){
+      rootElement.classList.remove('dark')
+      themeBtn.classList.add('ri-moon-fill')
+      themeBtn.classList.remove('ri-sun-fill')
+      localStorage.setItem('theme', 'light');
+
+    }else{
+      rootElement.classList.add('dark')
+      themeBtn.classList.remove('ri-moon-fill')
+      themeBtn.classList.add('ri-sun-fill')
+      localStorage.setItem('theme', 'dark');
+    }
+  }
+
+  useEffect(()=>{
+    const themeBtn = document.getElementById('themeMode')
+    const rootElement = document.documentElement;
+    const savedTheme = localStorage.getItem('theme')
+
+    if(savedTheme==="dark"){
+    rootElement.classList.add('dark')
+      themeBtn.classList.remove('ri-moon-fill')
+      themeBtn.classList.add('ri-sun-fill')
+    }else{
+      rootElement.classList.remove('dark')
+      themeBtn.classList.add('ri-moon-fill')
+      themeBtn.classList.remove('ri-sun-fill')
+    }
+
+  },[])
+  
+
   // Function to handle the search query input
   const handleSearch = (event) => {
     const query = event.target.value.toLowerCase();
@@ -87,12 +125,12 @@ const Header = () => {
     <nav
     ref={navbarRef}
       id="navbar"
-      className="mx-[2vw] lg:h-[12vh] px-1 lg:w-[96vw] xsm:h-[7vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] rounded-full flex items-center  lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin ease-linear duration-200"
+      className="mx-[2vw] lg:h-[12vh] px-1 lg:w-[96vw] xsm:h-[7vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] dark:bg-zinc-800 dark:text-white rounded-full flex items-center  lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin"
     >
       <div id="nav-part1" className="lg:w-[15%] xsm:w-[17%] h-full flex items-center xsm:text-center ">
-        <h1 className="lg:text-[2em] xsm:text-[0.8em] xsm:font-semibold ">techVista</h1>
+        <h1 className="lg:text-[2em] md:text-[1em] xsm:text-[0.6em] xsm:font-semibold xsm:ml-1 ">techVista</h1>
       </div>
-      <div id="nav-part2" className="lg:w-[35%] h-full xsm:w-[40%]  flex items-center xsm:justify-center xsm:ml-2 lg:px-0">
+      <div id="nav-part2" className="lg:w-[35%] h-full xsm:w-[40%] flex items-center xsm:justify-center xsm:ml-1 lg:px-0">
        <SearchBar query={query} handleSearch={handleSearch}  />
       </div>
 <div id="navPart3" className="lg:w-[43%] h-full self-end justify-self-center">
@@ -130,7 +168,7 @@ const Header = () => {
           {user ? (
               <button
                 onClick={logOut}
-                className="text-black duration-300 font-semibold ease-linear flex justify-center gap-1 py-2 rounded-3xl w-[8vw]"
+                className="text-black dark:text-white font-semibold  flex justify-center gap-1 py-2 rounded-3xl w-[8vw]"
               >
               <i className="ri-logout-box-line"></i>
                 <p className="lg:flex xsm:hidden">Logout</p>
@@ -138,19 +176,19 @@ const Header = () => {
           ) : (
               <NavLink
                 to="/login"
-                className="text-black duration-300 font-semibold ease-linear flex justify-center gap-1 py-2 rounded-3xl w-[8vw]"
+                className="text-black dark:text-white  font-semibold flex justify-center gap-1 py-2 rounded-3xl w-[8vw]"
               >
               <i className="ri-login-box-line"></i>
                 <p className="lg:flex xsm:hidden">Login</p>
               </NavLink>
           )}
-          <i className="ri-moon-fill"></i>
+          <i id='themeMode' onClick={handleTheme} className="ri-moon-fill text-xl cursor-pointer duration-300 ease-linear"></i>
         </ul>
       </div>
       
             {
               filteredItems.length > 0 && query.length > 0 &&(
-                <ul className="md:w-[18rem] md:min-h-[6rem] md:max-h-[12rem] xsm:w-[14rem] xsm:min-h-[4rem] xsm:max-h-[8rem] bg-[#fff]  py-2 fixed left-[19%] top-[100%]  shadow-md shadow-black text-center overflow-hidden">
+                <ul className="md:w-[18rem] md:min-h-[6rem] md:max-h-[12rem] xsm:w-[14rem] xsm:min-h-[4rem] xsm:max-h-[8rem] bg-[#fff] dark:bg-black dark-text-white  py-2 fixed left-[19%] top-[100%] text-center overflow-hidden">
           {filteredItems.map((item) => (
             <li className="py-2 hover:bg-[#3ad621] shadow-sm shadow-black hover:text-white lg:text-[0.88em] text-center" key={item.id} onClick={() => handleSelectItem(item)}>
               {item.name} - {item.brand}

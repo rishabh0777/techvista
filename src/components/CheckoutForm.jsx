@@ -10,20 +10,20 @@ const CheckoutForm = () => {
   const cardStyle = {
     style: {
       base: {
-        color: '#ffffff', // text-white
+        color: '#ffffff', 
         fontFamily: '"Inter", sans-serif',
-        fontSize: '16px', // text-base
+        fontSize: '16px', 
         '::placeholder': {
-          color: '#9ca3af', // text-gray-400
+          color: '#9ca3af', 
         },
-        padding: '0.75rem', // p-3
-        backgroundColor: '#1f2937', // bg-gray-800
-        borderRadius: '0.5rem', // rounded-lg
-        border: '1px solid #4b5563', // border-gray-600
+        padding: '0.75rem', 
+        backgroundColor: '#1f2937', 
+        borderRadius: '0.5rem', 
+        border: '1px solid #4b5563', 
       },
       invalid: {
-        color: '#f87171', // text-red-400
-        iconColor: '#f87171', // text-red-400
+        color: '#f87171', 
+        iconColor: '#f87171', 
       },
     },
   };
@@ -47,7 +47,7 @@ const CheckoutForm = () => {
   return (
 
  
-         <form className='w-full mx-auto bg-black p-6 rounded-lg shadow-lg' onSubmit={handleSubmit}>
+         <form className='w-full mx-auto bg-black dark:bg-zinc-900 p-6 rounded-lg shadow-lg' onSubmit={handleSubmit}>
           <label className="block mb-3 text-white">Card Details</label>
           <div className="p-3 bg-gray-800 rounded-lg border border-gray-600">
         <CardElement options={cardStyle} />

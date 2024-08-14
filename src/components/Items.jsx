@@ -30,14 +30,14 @@ const Items = () => {
 
   return (
     <>
-  <main className="w-screen bg-[#0b0b0b]">
+  <main className="w-screen bg-[#ccc] dark:bg-[#555]">
       <div
         id="landingPage"
-        className="w-[100vw] bg-[#ccc] min-h-[100vh] relative z-10 flex flex-col items-center justify-center"
+        className="w-[100vw] min-h-[100vh] relative z-10 flex flex-col items-center justify-center"
       >
         <div
           id="allProduct"
-          className="w-[95%] min-h-[85vh] p-4 relative z-[15] mx-[2.5%] lg:mt-[7.5%] xsm:mt-[20%] sm:mt-[14%] bg-white shadow-lg shadow-black rounded-3xl overflow-hidden  flex flex-col items-center box-sizing justify-items-center gap-5"
+          className="w-[95%] min-h-[85vh] p-4 relative z-[15] mx-[2.5%] lg:mt-[7.5%] xsm:mt-[20%] sm:mt-[14%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden  flex flex-col items-center box-sizing justify-items-center gap-5"
         >
           <h1 className="text-2xl pb-2 tracking-wider">All Item's</h1>
           <div className="w-full  border-b-[0.01em] border-zinc-500"></div>
