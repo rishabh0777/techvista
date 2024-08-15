@@ -125,7 +125,7 @@ const Header = () => {
     <nav
     ref={navbarRef}
       id="navbar"
-      className="mx-[2vw] lg:h-[12vh] px-1 lg:w-[96vw] xsm:h-[7vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] dark:bg-zinc-800 dark:text-white rounded-full flex items-center  lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin"
+      className="mx-[2vw] lg:min-h-[12vh] px-1 lg:w-[96vw] xsm:min-h-[7vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] dark:bg-zinc-800 dark:text-white rounded-full flex items-center  lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin"
     >
       <div id="nav-part1" className="lg:w-[15%] xsm:w-[17%] h-full flex items-center xsm:text-center ">
         <h1 className="lg:text-[2em] md:text-[1em] xsm:text-[0.6em] xsm:font-semibold xsm:ml-1 ">techVista</h1>
@@ -190,7 +190,7 @@ const Header = () => {
               filteredItems.length > 0 && query.length > 0 &&(
                 <ul className="md:w-[18rem] md:min-h-[6rem] md:max-h-[12rem] xsm:w-[14rem] xsm:min-h-[4rem] xsm:max-h-[8rem] bg-[#fff] dark:bg-black dark-text-white  py-2 fixed left-[19%] top-[100%] text-center overflow-hidden">
           {filteredItems.map((item) => (
-            <li className="py-2 hover:bg-[#3ad621] shadow-sm shadow-black hover:text-white lg:text-[0.88em] text-center" key={item.id} onClick={() => handleSelectItem(item)}>
+            <li className="py-2 hover:bg-[#3ad621]  dark:hover:text-white lg:text-[0.88em] text-center" key={item.id} onClick={() => handleSelectItem(item)}>
               {item.name} - {item.brand}
             </li>
           ))}

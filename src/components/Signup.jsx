@@ -51,10 +51,10 @@ const Signup = () => {
         className="w-[100vw] h-[100vh] z-10 flex flex-col items-center justify-center"
       >
         <div
-          className="md:w-[95%] md:h-[87vh] xsm:w-full xsm:h-full p-4 mx-[2.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
+          className="md:w-[95%] md:h-min-[87vh] md:max-h-[100vh] xsm:w-full xsm:h-full p-4 mx-[2.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
         >
           
-              <div className='lg:w-[26vw] sm:w-full xsm:w-full xsm:h-[70vh] md:h-[70vh] bg-white dark:bg-black shadow-md shadow-black flex flex-col  items-center'>
+              <div className='lg:w-[26vw] sm:w-full xsm:w-full xsm:min-h-[70vh] md:min-h-[70vh] bg-white dark:bg-black shadow-md shadow-black flex flex-col  items-center'>
         <div className='w-full h-[25%] flex flex-col justify-center items-center'>
         <h1 className='lg:text-[1.8em] xsm:text-[1.9rem] justify-self-start'>Signup Account</h1>
         <p className='text-[0.8em] font-thin-bold mt-2'>Enter your personal data to create account.</p>

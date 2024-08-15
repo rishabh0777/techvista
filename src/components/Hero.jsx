@@ -55,7 +55,7 @@ const Hero = () => {
         >
           <div
             id="heroPoster"
-            className="w-[95%] sm:h-[95vh] md:h-screen xsm:h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none"
+            className="w-[95%] sm:min-h-[95vh] md:h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none"
           >
             <div id="content" className="relative inline-block text-center">
             <h1 className="absolute left-1/2 md:text-[14vw] xsm:text-[17vw] xsm:top-[-31%] sm:top-[-33%] md:top-[-40%] lg:top-[-70%] tracking-mostWidest z-[10] font-black transform -translate-x-1/2 ">AIRPOD</h1>
@@ -66,7 +66,7 @@ const Hero = () => {
               <p className="absolute left-1/2 xsm:top-[170%] sm:top-[220%] xsm:text-[0.7em] lg:text-[1em] md:text-[0.9em] text-slate-700 w-full transform -translate-x-1/2">Unleasing the Power of Modern Tech</p>
             </div>
           </div>
-          <div className="lg:w-[95%] lg:h-[86vh] md:h-[50%] xsm:w-[95%] xsm:min-h-[60%] relative z-[15] mx-[2.5%] lg:mt-[2%] xsm:mt-[4%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex flex-col gap-2 items-center justify-start box-sizing border-box px-2 py-2">
+          <div className="lg:w-[95%] lg:h-[86vh] md:min-h-[50%] xsm:w-[95%] xsm:min-h-[60%] relative z-[15] mx-[2.5%] lg:mt-[2%] xsm:mt-[4%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex flex-col gap-2 items-center justify-start box-sizing border-box px-2 py-2">
             <h1 className="font-semibold lg:text-[5rem] xsm:text-[2rem] sm:text-[3rem]">Category</h1>
             <div className="w-full h-[90%] px-2 py-2 grid xsm:grid-cols-1 lg:grid-cols-6 lg:grid-row-2 gap-2 items-center justify-items-center">
               {products.categories.slice(0, 7).map((value, index) => {
