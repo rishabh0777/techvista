@@ -59,13 +59,13 @@ const Login = () => {
 <main className="w-screen bg-[#ccc] dark:bg-[#555]">
       <div
         id="loginPage"
-        className="w-[100vw] h-[100vh] z-10 flex flex-col items-center justify-center"
+        className="w-[100vw] min-h-[100vh] z-10 flex flex-col items-center justify-center"
       >
         <div
-          className="md:w-[95%] md:h-[87vh] xsm:w-full xsm:h-full p-4 mx-[2.5%]  bg-white dark:bg-zinc-900 shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
+          className="md:w-[95%] md:h-[87vh] xsm:w-full xsm:min-h-full p-4 mx-[2.5%]  bg-white dark:bg-zinc-900 shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
         >
           
-              <div className='lg:w-[26vw]  sm:w-full xsm:w-full xsm:h-[70vh] md:h-[70vh] bg-white dark:bg-black dark:text-white shadow-md shadow-black flex flex-col  items-center'>
+              <div className='lg:w-[27vw] md:w-[35vw]  sm:w-auto xsm:w-full xsm:min-h-[70vh] xsm:py-5 md:min-h-[70vh] bg-white dark:bg-black dark:text-white shadow-md shadow-black flex flex-col  items-center md:py-0'>
         <div className='w-full h-[25%] flex flex-col justify-center items-center'>
           <h1 className='lg:text-[1.8em] xsm:text-[1.9rem] justify-self-start'>Login Account</h1>
           <p className='text-[0.8em] font-thin-bold mt-2'>Enter your data to logged in your account.</p>

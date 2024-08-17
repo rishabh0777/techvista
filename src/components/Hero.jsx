@@ -63,7 +63,7 @@ const Hero = () => {
               <img 
               className="relative max-w-[50%] mx-auto my-0 block z-[20]"
               src={heroPosterImg} alt="sorry" />
-              <p className="absolute left-1/2 xsm:top-[170%] sm:top-[220%] xsm:text-[0.7em] lg:text-[1em] md:text-[0.9em] text-slate-700 w-full transform -translate-x-1/2">Unleasing the Power of Modern Tech</p>
+              <p className="absolute left-1/2 xsm:top-[170%] tracking-wide sm:top-[120%] xsm:text-[0.7em] lg:text-[1em] md:text-[0.9em] text-slate-800 dark:text-slate-200 w-full transform -translate-x-1/2 z-10">Unleasing the Power of Modern Tech</p>
             </div>
           </div>
           <div className="lg:w-[95%] lg:h-[86vh] md:min-h-[50%] xsm:w-[95%] xsm:min-h-[60%] relative z-[15] mx-[2.5%] lg:mt-[2%] xsm:mt-[4%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex flex-col gap-2 items-center justify-start box-sizing border-box px-2 py-2">

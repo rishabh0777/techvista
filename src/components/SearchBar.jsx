@@ -13,7 +13,7 @@ const SearchBar = ({ query, handleSearch, removeHandleSearch }) => {
           <input
             type="text"
             placeholder="Search item"
-            className="lg:w-[80%] lg:h-[70%] border-box xsm:h-[70%] xsm:w-[100%] dark:bg-zinc-800 dark:text-white shadow-black shadow-inner rounded-full lg:px-2 xsm:pl-1 outline-none lg:text-[0.9em] xsm:text-[0.8em]"
+            className="lg:w-[80%] lg:h-[70%] border-box xsm:h-[70%] xsm:w-[100%] dark:bg-zinc-800 dark:text-white shadow-black shadow-inner rounded-full lg:px-2 xsm:pl-1 outline-none lg:text-[0.9em] xsm:text-[0.8em] py-2"
             value={query}
             onChange={handleSearch}
             onMouseDown={removeHandleSearch}

@@ -47,14 +47,14 @@ const Signup = () => {
     <>
     <main className="w-screen bg-[#ccc] dark:bg-[#555]">
       <div
-        id="signupPage"
-        className="w-[100vw] h-[100vh] z-10 flex flex-col items-center justify-center"
+        id="loginPage"
+        className="w-[100vw] min-h-[100vh] z-10 flex flex-col items-center justify-center"
       >
         <div
-          className="md:w-[95%] md:h-min-[87vh] md:max-h-[100vh] xsm:w-full xsm:h-full p-4 mx-[2.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
+          className="md:w-[95%] md:min-h-[87vh] xsm:w-full xsm:min-h-full p-5 mx-[2.5%]  bg-white dark:bg-zinc-900 shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
         >
           
-              <div className='lg:w-[26vw] sm:w-full xsm:w-full xsm:min-h-[70vh] md:min-h-[70vh] bg-white dark:bg-black shadow-md shadow-black flex flex-col  items-center'>
+              <div className='lg:w-[27vw] md:w-[35vw] xsm:w-full xsm:min-h-[70vh] xsm:py-5 md:min-h-[70vh]  bg-white dark:bg-black dark:text-white shadow-md shadow-black flex flex-col  items-center md:py-0'>
         <div className='w-full h-[25%] flex flex-col justify-center items-center'>
         <h1 className='lg:text-[1.8em] xsm:text-[1.9rem] justify-self-start'>Signup Account</h1>
         <p className='text-[0.8em] font-thin-bold mt-2'>Enter your personal data to create account.</p>
