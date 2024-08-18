@@ -10,6 +10,7 @@ import Items from "./components/Items";
 import SearchedItem from "./components/SearchedItem";
 import ProductInfo from "./components/ProductInfo";
 import Checkout from "./components/Checkout";
+import Ordered from "./components/Ordered";
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
             <Route path="searchItems" element={<SearchedItem />} />
             <Route path="productinfo" element={<ProductInfo />} />
             <Route path="checkout" element={<Checkout />} />
+            <Route path="ordered" element={<Ordered />} />
+
           </Route>
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />

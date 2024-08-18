@@ -15,13 +15,14 @@ const Checkout = () => {
   const [selectedAddress, setSelectedAddress] = useState(null);
   const navigate = useNavigate()
   const total = useSelector((state)=> state.productInfo.selectedProductInfo)
-
   
 
  
 
   const getfName = (e) => {
     setFirstName(e.target.value);
+    const newName = e.target.value
+   
   };
   const getlName = (e) => {
     setLastName(e.target.value);
@@ -63,6 +64,10 @@ const Checkout = () => {
   };
 
   const selectedDetail = finalShipDet.find((detail) => detail.key === selectedAddress);
+  const orderedItem = ()=>{
+    setFinalShipDet(selectedDetail)
+    navigate('ordered', {replace:true})
+  }
 
   return (
     <StripeContext>
@@ -173,7 +178,7 @@ const Checkout = () => {
             }
             <div className="w-full md:h-[30%] xsm:h-[40%] xsm:mt-8 md:mt-0 px-4 py-2 flex flex-col items-center">
             <CheckoutForm />
-              {/* <button onClick={()=> navigate('/cart' ,{replace:true})} className="w-[8rem] rounded-2xl text-white py-2 px-2 bg-slate-800 mr-5">Back</button> */}
+             
              
             </div>
             </div>

@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
+import { useNavigate } from 'react-router-dom';
 
 const CheckoutForm = () => {
   const stripe = useStripe();
   const elements = useElements();
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
+  const navigate = useNavigate()
+
 
   const cardStyle = {
     style: {
@@ -37,6 +40,8 @@ const CheckoutForm = () => {
     setTimeout(() => {
       if (card) {
         setSuccess(true);
+        navigate('/ordered', {replace:true})
+        
         setError(null);
       } else {
         setError('Payment failed');

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
-import { logout as logoutUser } from "../../authSlice";
+import { logout as logoutUser, loginUser as loginUserAction } from "../../authSlice";
 import { clearCart } from "../../cartSlice";
 import SearchBar from "./SearchBar";
 import products from '../data/products.json'
@@ -82,18 +82,24 @@ const Header = () => {
     setQuery('');
   };
   
-  
+  useEffect(() => {
+    const storedUser = JSON.parse(localStorage.getItem('user'));
+    if (storedUser) {
+      dispatch(loginUserAction(storedUser));
+    }
+  }, [user, dispatch]);
 
   const logOut = (e) => {
     e.preventDefault();
     if(user){
       dispatch(logoutUser(user));
       dispatch(clearCart(cartItems))
-      navigate('login')
-
+      localStorage.removeItem('user')
+      navigate('/login', { replace: true })
     }
     return
   };
+ 
 
 
   const lastScrollTop = useRef(0);
@@ -138,7 +144,7 @@ const Header = () => {
             
         <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? "lg:bg-[#3ad621] lg:text-white xsm:text-[#3ad611] duration-300 font-semibold ease-linear flex justify-center gap-1 py-2 rounded-3xl w-[8vw]" : "font-semibold flex justify-center gap-1 py-2 rounded-3xl w-[8vw] ")}
+              className={({ isActive }) => (isActive ? "lg:bg-[#3ad621] lg:text-white xsm:text-[#3ad611] duration-300 font-semibold ease-linear flex justify-center gap-1 py-2 rounded-3xl w-[8vw]" : "font-semibold flex justify-center gap-1 py-2 rounded-3xl w-[8vw]")}
             >
             <i className="ri-home-4-fill"></i>
               <p className="lg:flex xsm:hidden">Home</p>
@@ -170,7 +176,7 @@ const Header = () => {
                 onClick={logOut}
                 className="text-black dark:text-white font-semibold  flex justify-center gap-1 py-2 rounded-3xl w-[8vw]"
               >
-              <i className="ri-logout-box-line"></i>
+              <i className="ri-logout-box-line text-red-500 font-black"></i>
                 <p className="lg:flex xsm:hidden">Logout</p>
               </button>
           ) : (
@@ -178,7 +184,7 @@ const Header = () => {
                 to="/login"
                 className="text-black dark:text-white  font-semibold flex justify-center gap-1 py-2 rounded-3xl w-[8vw]"
               >
-              <i className="ri-login-box-line"></i>
+              <i className="ri-login-box-line text-[#3ad611]"></i>
                 <p className="lg:flex xsm:hidden">Login</p>
               </NavLink>
           )}
