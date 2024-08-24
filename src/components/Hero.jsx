@@ -55,7 +55,7 @@ const Hero = () => {
         >
           <div
             id="heroPoster"
-            className="w-[95%] sm:min-h-[95vh] md:h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none"
+            className="w-[95%] sm:min-h-[95vh] md:h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[7.8%] xsm:mt-[20%] sm:mt-[20%] md:mt-[12.5%] xl:mt-[9.5%]  bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl overflow-hidden flex items-center justify-center box-sizing lg:cursor-none"
           >
             <div id="content" className="relative inline-block text-center">
             <h1 className="absolute left-1/2 md:text-[14vw] xsm:text-[17vw] xsm:top-[-31%] sm:top-[-33%] md:top-[-40%] lg:top-[-70%] tracking-mostWidest z-[10] font-black transform -translate-x-1/2 ">AIRPOD</h1>
