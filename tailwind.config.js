@@ -7,9 +7,11 @@ export default {
   theme: {
     extend: {
       screens: {
-        xsm: '200px',
-        sm: "400px",
-        xl:'1350px',
+        xsm: '360px',
+        sm: "625px",
+        md:'750px',
+        lg:'925px',
+        xl:'1024px',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

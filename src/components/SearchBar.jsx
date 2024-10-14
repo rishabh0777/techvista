@@ -13,12 +13,12 @@ const SearchBar = ({ query, handleSearch, removeHandleSearch }) => {
           <input
             type="text"
             placeholder="Search item"
-            className="lg:w-[80%] lg:h-[70%] border-box xsm:h-[70%] xsm:w-[100%] dark:bg-zinc-800 dark:text-white shadow-black shadow-inner rounded-full lg:px-2 xsm:pl-1 outline-none lg:text-[0.9em] xsm:text-[0.8em] py-2"
+            className="lg:w-[80%] lg:h-[70%] border-box xsm:h-[70%] xsm:w-[100%] dark:bg-zinc-800 dark:text-white shadow-black shadow-inner rounded-full lg:px-2 xsm:px-2 outline-none lg:text-[0.9em] xsm:text-[0.8em] py-[1.8vh]"
             value={query}
             onChange={handleSearch}
             onMouseDown={removeHandleSearch}
           />
-          <button className="transform-translate-[-10%,0] lg:h-[60%] xsm:px-0 xsm:left-[-15%] lg:px-4 relative lg:left-[-10%] pointer">
+          <button className="transform-translate-[-10%,0] lg:h-[60%] xsm:px-0 xsm:left-[-17%] lg:px-4 relative lg:left-[-10%] pointer">
             <i className="ri-search-line"></i>
           </button>
 
