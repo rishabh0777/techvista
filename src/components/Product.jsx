@@ -47,7 +47,7 @@ const Product = () => {
       >
         <div
           id="allProduct"
-          className="w-[95%] sm:min-h-[95vh] md:min-h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[12%] xsm:mt-[22%] sm:mt-[13%] md:mt-[12%] xl:mt-[8.7%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl flex box-sizing lg:cursor-none flex flex-col items-center box-sizing justify-items-center gap-5 py-6"
+          className="w-[95%] sm:min-h-[95vh] md:min-h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[12%] xsm:mt-[22%] sm:mt-[13%] md:mt-[12%] xl:mt-[8.7%] xxl:mt-[10%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl flex box-sizing lg:cursor-none flex flex-col items-center box-sizing justify-items-center gap-5 py-6"
         >
           <h1 className="text-2xl pb-2 tracking-wider">All Product's</h1>
           <div className="w-full  border-b-[0.01em] border-zinc-500"></div>
