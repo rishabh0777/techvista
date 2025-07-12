@@ -51,10 +51,10 @@ const Signup = () => {
         className="w-[100vw] min-h-[100vh] z-10 flex flex-col items-center justify-center"
       >
         <div
-          className="md:w-[95%] md:h-[87vh] xsm:w-full xsm:min-h-full md:p-4 xsm:p-0 mx-[2.5%]  bg-white dark:bg-zinc-900 shadow-lg shadow-black md:rounded-3xl overflow-hidden flex items-center box-sizing justify-center gap-5"
+          className="w-full  h-screen md:p-4 xsm:p-0 bg-white dark:bg-zinc-800 overflow-hidden flex items-center box-sizing justify-center gap-5"
         >
           
-              <div className='lg:w-[27vw] md:w-[35vw]  sm:w-auto xsm:w-full xsm:min-h-[70vh] xsm:py-5 md:min-h-[70vh] bg-white dark:bg-black dark:text-white shadow-md shadow-black flex flex-col  items-center md:py-0 justify-content-center'>
+              <div className='lg:w-[27vw] md:w-[35vw]  sm:w-auto xsm:w-full xsm:min-h-[70vh] xsm:py-5 md:min-h-[70vh] bg-white dark:bg-zinc-800 dark:text-white shadow-md shadow-black flex flex-col  items-center md:py-0 justify-content-center'>
         <div className='w-full h-[25%] flex flex-col justify-center items-center'>
           <h1 className='lg:text-[1.8em] xsm:text-[1.9rem] justify-self-start'>Signup Account</h1>
           <p className='text-[0.8em] font-thin-bold mt-5'>Enter your personal data to create account.</p>

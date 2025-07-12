@@ -114,14 +114,14 @@ const CartComponent = () => {
   }
 
   return (
-    <main className="w-screen bg-[#ccc] dark:bg-[#555] pb-4">
+    <main className="w-screen bg-white dark:bg-zinc-800 pb-4">
       <div
         id="cart"
         className="w-[100vw] relative z-10 flex flex-col items-center justify-center"
       >
         <div
           id="cartItem"
-          className="w-[95%] sm:min-h-[95vh] md:min-h-screen xl:min-h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[12%] xsm:mt-[22%] sm:mt-[13%] md:mt-[12%] xl:mt-[8.7%]  xxl:mt-[10%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl flex flex-col items-center box-sizing justify-items-center gap-5 py-5"
+          className="w-full sm:min-h-[95vh] md:min-h-screen xl:min-h-screen xsm:min-h-[70vh] relative z-[15] md:mt-[10vh] xsm:mt-[7vh] bg-white dark:bg-zinc-800 dark:text-white flex flex-col items-center box-sizing justify-items-center gap-5 py-5"
         >
           <h1 className="text-2xl pb-2 tracking-wider">Shopping Cart</h1>
           <div className="w-full border-b-[0.01em] border-zinc-500"></div>
@@ -143,7 +143,7 @@ const CartComponent = () => {
               </>
             ))
           ) : (
-            <div className="text-[8vw] font-bold h-[80vh] w-full flex items-center justify-center flex-col"><h3>Your Cart is Empty</h3> <button onClick={handleEmpty} className="text-[3vw] mt-8 bg-[#3ad611] px-4 py-3 rounded-3xl text-white shadow-md shadow-black">add some item to cart</button></div>
+            <div className="text-[5vw] font-bold h-[80vh] w-full flex items-center justify-center flex-col"><h3>Your Cart is Empty</h3> <button onClick={handleEmpty} className="text-[2vw] mt-8 bg-[#3ad611] px-4 py-3 rounded-3xl text-white shadow-md shadow-black">add some item to cart</button></div>
           )}
           {cartItems.length > 0 && (
             <div className="lg:w-[90%] xsm:w-full xsm:h-[10vh] md:h-[12%] mt-5 bg-white dark:bg-black shadow-lg shadow-black rounded-full flex py-3 items-center">

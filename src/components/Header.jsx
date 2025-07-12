@@ -131,7 +131,7 @@ const Header = () => {
     <nav
     ref={navbarRef}
       id="navbar"
-      className="mx-[2vw] lg:min-h-[12vh] px-1 lg:w-[96vw] md-min-h-[10vh] xsm:min-h-[7vh] md:min-h-[8vh] xsm:w-[96vw] top-[1vh] z-[200] shadow-lg shadow-black text-black bg-[#ffffff] dark:bg-zinc-800 dark:text-white rounded-full flex items-center sm:p-3 lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin"
+      className="lg:min-h-[12vh] px-1 w-screen  md-min-h-[10vh] xsm:min-h-[7vh] top-0 z-[200] shadow-lg text-black bg-[#ffffff] dark:bg-zinc-800 dark:text-white flex items-center sm:p-3 lg:py-0 lg:px-5 xsm:px-[0.1em] xsm:py-1 fixed font-thin"
     >
       <div id="nav-part1" className="lg:w-[15%] xsm:w-[17%] h-full flex items-center xsm:text-center ">
         <h1 className="lg:text-[2em] md:text-[1em] xsm:text-[0.6em] xsm:font-semibold xsm:ml-1 lg:text-[2vw]">techVista</h1>

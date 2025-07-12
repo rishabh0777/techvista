@@ -43,11 +43,11 @@ const Product = () => {
     <main className="w-screen bg-[#0b0b0b]">
       <div
         id="landingPage"
-        className="w-[100vw] bg-[#ccc] dark:bg-[#555] min-h-[100vh] relative z-10 flex flex-col items-center justify-center"
+        className="w-[100vw] bg-white dark:bg-zinc-800 min-h-[100vh] relative z-10 flex flex-col items-center justify-center"
       >
         <div
           id="allProduct"
-          className="w-[95%] sm:min-h-[95vh] md:min-h-screen xsm:min-h-[70vh] relative z-[15] mx-[2.5%] lg:mt-[12%] xsm:mt-[22%] sm:mt-[13%] md:mt-[12%] xl:mt-[8.7%] xxl:mt-[10%] bg-white dark:bg-zinc-900 dark:text-white shadow-lg shadow-black rounded-3xl flex box-sizing lg:cursor-none flex flex-col items-center box-sizing justify-items-center gap-5 py-6"
+          className="w-full sm:min-h-[95vh] md:min-h-screen xsm:min-h-[70vh] relative z-[15] md:mt-[10vh] xsm:mt-[7vh] bg-white dark:bg-zinc-800 dark:text-white flex box-sizing lg:cursor-none flex flex-col items-center box-sizing justify-items-center gap-5 py-6"
         >
           <h1 className="text-2xl pb-2 tracking-wider">All Product's</h1>
           <div className="w-full  border-b-[0.01em] border-zinc-500"></div>
